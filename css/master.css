@@ -965,11 +965,11 @@ body {
 /* End Footer */
 
 /* Start Grid System */
-@media (min-width: 576px) {
+@media (max-width: 575px) {
 
     /* Small Devices => LandScape Phones */
     .container {
-        max-width: 540px;
+        max-width: 375px;
     }
 }
 
@@ -977,7 +977,7 @@ body {
 
     /* Medium  Devices => Tablets*/
     .container {
-        max-width: 720px;
+        max-width: 746px;
     }
 }
 
